@@ -18,7 +18,6 @@ public class Task3 {
         } catch (CustomAgeException e) {
             System.err.println("Ошибка: " + e.getMessage());
             Logger.logException(e);
-
         }
     }
 }
